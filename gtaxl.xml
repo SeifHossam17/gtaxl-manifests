@@ -4,21 +4,21 @@
   <!-- Contain patches necessary for working around the old kernel not having (anywhere near the required level of) eBPF support - REQUIRED, otherwise no boot -->
   <remove-project name="platform/frameworks/libs/net" />
   <project name="K9100ii/android_frameworks_libs_net" path="frameworks/libs/net" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="LineageOS/android_packages_modules_Connectivity" />
+  <remove-project name="crdroidandroid/android_packages_modules_Connectivity" />
   <project name="K9100ii/android_packages_modules_Connectivity" path="packages/modules/Connectivity" remote="github" revision="lineage-20.0-nobpf" />
   <remove-project name="platform/system/bpf" />
   <project name="K9100ii/android_system_bpf" path="system/bpf" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="LineageOS/android_system_core" />
+  <remove-project name="crdroidandroid/android_system_core" />
   <project name="K9100ii/android_system_core" path="system/core" remote="github" revision="lineage-20.0-nobpf" />
-  <remove-project name="LineageOS/android_system_netd" />
+  <remove-project name="crdroidandroid/android_system_netd" />
   <project name="K9100ii/android_system_netd" path="system/netd" remote="github" revision="lineage-20.0-nobpf" />
 
   <!-- Contains a patch for a possible slight improvement in screen recording quality - Optional if not desired -->
-  <remove-project name="LineageOS/android_frameworks_base" />
+  <remove-project name="crdroidandroid/android_frameworks_base" />
   <project name="K9100ii/android_frameworks_base" path="frameworks/base" remote="github" revision="lineage-20.0" />
 
   <!-- Contains a patch for improving graphical performance - Optional -->
-  <remove-project name="LineageOS/android_frameworks_native" />
+  <remove-project name="crdroidandroid/android_frameworks_native" />
   <project name="K9100ii/android_frameworks_native" path="frameworks/native" remote="github" revision="lineage-20.0" />
   <!-- END OF FORKS -->
 
